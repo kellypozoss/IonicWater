@@ -27,6 +27,11 @@ const routes: Routes = [
     path: 'alert',
     loadChildren: () => import('./pages/alert/alert.module').then(m => m.AlertPageModule)
   },
+  {
+    path: 'user-modal',
+    loadChildren: () => import('./user-modal/user-modal.module').then( m => m.UserModalPageModule)
+  },
+
 
 
 ];
